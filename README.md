@@ -11,4 +11,4 @@ To run file, you can install Julia and Pluto on your local computer with the fol
 julia> using Pluto<br>
 julia> Pluto.run()
 
-In Open the notebook, paste the following link:
+In Open the notebook, paste the following link:https://github.com/pragya-gupta7/LinearReg-using-Julia/blob/main/regression%20-%20Copy.jl
