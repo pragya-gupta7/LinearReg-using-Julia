@@ -18,10 +18,14 @@ md"""
 """
 
 # ╔═╡ 22e594fb-7a11-411c-a7ed-70dec1d8ffa4
-path="insurance.csv"
+begin
+path = "https://github.com/pragya-gupta7/LinearReg-using-Julia/raw/main/insurance.csv"
 
-# ╔═╡ d5218126-77cd-4a44-ab37-4db8712e93d3
-data=CSV.read(path, DataFrame)
+# Download the CSV file
+download(path, "insurance.csv")
+	# Load the data into a DataFrame
+data = CSV.read("insurance.csv", DataFrame)
+end
 
 # ╔═╡ 673fa142-cf9d-4ae2-8cff-8d700ff9341d
 begin
