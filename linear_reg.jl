@@ -15,7 +15,7 @@ macro bind(def, element)
 end
 
 # ╔═╡ 9906e5c0-fb8d-11ed-2ba2-2d7ad18b61c3
-using Plots,PlutoUI,CSV,GLM,Statistics,LinearAlgebra, Distributions, DataFrames, StatsBase,PLutoSliderServer
+using Plots,PlutoUI,CSV,GLM,Statistics,LinearAlgebra, Distributions, DataFrames, StatsBase,PlutoSliderServer
 
 # ╔═╡ ecb605ce-4702-4c9b-a905-1493b0d53ebc
 path="./insurance.csv"
